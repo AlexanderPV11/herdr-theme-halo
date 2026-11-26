@@ -1,8 +1,12 @@
 # herdr-theme-halo
 
-Tema para [Herdr](https://herdr.dev) inspirado en Halo: anillo en el espacio, interfaz tipo HUD, sonidos propios y **un casco de color aleatorio para cada agente**.
+Tema para [Herdr](https://herdr.dev) inspirado en Halo: fondo del Master Chief y Cortana, interfaz tipo HUD, sonidos propios y **un casco de color aleatorio para cada agente**.
 
-> Proyecto de fans, no oficial. Halo es una marca de Microsoft; este repositorio no está afiliado ni respaldado por Microsoft. El fondo, los cascos y los sonidos son originales: no incluye arte ni audio del juego.
+> Proyecto de fans, no oficial y sin fines comerciales. Halo es una marca de Microsoft; este repositorio no está afiliado ni respaldado por Microsoft.
+>
+> El fondo `backgrounds/halo-infinite.jpg` es arte oficial de **Halo Infinite** (343 Industries), tomado de [TheXboxHub](https://www.thexboxhub.com/wp-content/uploads/2021/12/image-9.jpeg). El fondo del anillo (`halo.jpg`), los cascos y los sonidos son originales.
+>
+> Halo Infinite © Microsoft Corporation. herdr-theme-halo was created under Microsoft's [Game Content Usage Rules](https://www.xbox.com/en-US/developers/rules) using assets from Halo Infinite, and it is not endorsed by or affiliated with Microsoft.
 
 ![Cascos](preview/cascos.png)
 
@@ -12,7 +16,7 @@ Tema para [Herdr](https://herdr.dev) inspirado en Halo: anillo en el espacio, in
 |---|---|
 | `layouts/` | El layout `halo` y su vista previa |
 | `themes/` | Colores (cian HUD, verde armadura, dorado visor) |
-| `backgrounds/` | Fondo con el anillo |
+| `backgrounds/` | Fondo de Halo Infinite (activo) y fondo alternativo con el anillo |
 | `icons/halo/` | 10 cascos: verde, rojo, azul, dorado, naranja, morado, blanco, negro, cian y rosa |
 | `sounds/` | Sonido de "agente terminado" y de "agente te necesita" |
 | `mods/halo-agents/` | La lista de agentes, con cascos |
@@ -71,5 +75,5 @@ Los sonidos se aplican a todos los layouts: para quitarlos, borra `done` y `bloc
 
 ## Notas
 
-- Para cambiar el fondo, reemplaza `backgrounds/halo.jpg` (idealmente 2560×1440).
+- Para usar el anillo, cambia en `layouts/halo.json` la imagen a `backgrounds/halo.jpg`. Para poner la tuya, cópiala en `backgrounds/` (idealmente 2560×1440 o más) y apunta ahí.
 - `halo-agents` y `halo-spaces` son copias modificadas de los mods `agents` y `spaces` de Herdr: no reciben las mejoras que Herdr haga en los originales. No se incluye licencia; revisa la de Herdr antes de redistribuirlos.

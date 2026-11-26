@@ -10,7 +10,7 @@ if (-not (Test-Path $dest)) { throw "No existe $dest. Instala y abre Herdr una v
 $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $backup = Join-Path $dest "backup-halo-$stamp"
 
-$items = "themes\halo.json", "backgrounds\halo.jpg", "icons\halo", "sounds\halo-done.mp3",
+$items = "themes\halo.json", "backgrounds\halo.jpg", "backgrounds\halo-infinite.jpg", "icons\halo", "sounds\halo-done.mp3",
          "sounds\halo-blocked.mp3", "mods\halo-agents", "mods\halo-spaces", "layouts\halo.svg",
          "layouts\halo.json"
 foreach ($item in $items) {

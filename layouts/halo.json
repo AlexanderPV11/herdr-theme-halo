@@ -167,7 +167,7 @@
     }
   ],
   "background": {
-    "image": "backgrounds/halo.jpg",
+    "image": "backgrounds/halo-infinite.jpg",
     "fit": "cover"
   },
   "terminal_padding": [
